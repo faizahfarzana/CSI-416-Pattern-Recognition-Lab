@@ -1,0 +1,18 @@
+Global Alignment is a method of finding similarity regions of two sequences.
+In this method, sequences are comapred from beginning to end.
+
+Example:
+  Suppose, value for match = +1
+                     mismatch = -1
+  Sequence 1: ATCGA
+  Sequence 2: AACTG
+  
+  Here we have +1 -1 +1 -1 -1 = -1
+  This is the global alignment method and -1 is the similarity score.
+  
+  
+
+Needleman-Wunsch Similarity Score is a standard method for measuring similarity between two sequences.
+In the paper, cosine similarities are comapred with NW score. Experiments prove that NW score and 
+cosine similarity of k-mers are positively correlated. Which means both scores same direction e move
+kore. As in ektar value upore gele onnotar value o upore jabe, ar niche gele niche jabe.
