@@ -12,3 +12,7 @@ RNA: Ribonucleic acid. Adenine, Guanine, Thymine, Uracil (A, C, T, U)
 Example:
     Biological Sequence: TAGACTGTC
     K-mer of length 5: TAGAC, AGACT, GACTG
+    
+    For DNAs, number of k-mers for length k = 4^k
+    number of k-mers for length 5 = 4 ^ 5
+    
