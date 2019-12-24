@@ -17,3 +17,6 @@ Example:
         -1 = non-similar
          0 = perpendicular
          1 = totally similar
+      
+   In this paper, we find nearest neighbors using similarity measure:
+              NearestNeighbor_k (v)= max [sim(v, vec(s))] for s belonging to {A, C, G, T} ^ k
