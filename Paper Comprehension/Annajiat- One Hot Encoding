@@ -1,2 +1,36 @@
-# CSI-416-Pattern-Recognition-Lab
-paper study
+Read here: https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f
+
+1. Categorical Data: Values are labels rather numbers
+
+  Example:
+      Age: 21
+      Name: Bipasha
+
+      Here, Age er data hocche numerical and name er data hocche categorical.
+      
+2. One-hot Encoding: Process of converting categorical data to numerical data.
+
+
+  Example of One hot encoding:
+  
+                    Aditi       Bipasha       Mashruba      Faizah
+      Aditi           1            0              0            0
+      Bipasha         0            1              0            0
+      Mashruba        0            0              1            0
+      Faizah          0            0              0            1
+  
+  ekta variable er value tar nijer index e 1 obe, onno index e 0 hobe.
+  
+3. Problems of one-hot encoding of k-mers:
+        i. curse of dimensionality:
+           number of k-mer exponential to length of k-mer.
+           k-mer of length 4, number of k-mers: 4 ^ 4 = 16
+           k-mer of length 8, number of k-mers: 4 ^ 8 = 65536
+           
+           so we will need huge dimensional matrices for storing one hot representation of k-mer.
+           bishal dimension er jonno ML algorithm gulo slow kaj korbe. performance kharap hobe.
+           
+        ii. distance measurement:
+            one hot matrix er jekono duita row er distance equal. tai eta diye k-mer er similarity compare kora jay na
+            
+            
