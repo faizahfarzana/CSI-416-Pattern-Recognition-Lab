@@ -1,0 +1,14 @@
+K-mer: https://en.wikipedia.org/wiki/K-mer
+k-mers are subsequences of length k contained within a biological sequence.
+
+Biological sequence: Sequences of nucleotides or amino acids.
+
+Nucleotide: An organic molecule that is the building block of DNA and RNA
+It has five Nitrogen bases: Adenine, Cytosine, Guanine, Thymine, Urasil
+
+DNA: Deoxyribonucleic acid. Adenine, Cytosine, Guanine, Thymine (A, C, G, T)
+RNA: Ribonucleic acid. Adenine, Guanine, Thymine, Uracil (A, C, T, U)
+
+Example:
+    Biological Sequence: TAGACTGTC
+    K-mer of length 5: TAGAC, AGACT, GACTG
